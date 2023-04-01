@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import { Link } from "react-router-dom"
 import back from "../../assets/back.png"
 import { useState } from "react"
@@ -77,7 +76,7 @@ export default function EditRegisterPage({editID}){
                     </InputArea>
                     <ButtonArea>
                         <button type="submit">Salvar</button>
-                        <button>Cancelar</button>
+                        <Link to="/"><button>Cancelar</button></Link>
                     </ButtonArea>
                 </FormContainer>
             </Body>

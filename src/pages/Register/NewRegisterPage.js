@@ -76,7 +76,7 @@ export default function NewRegister(){
                     </InputArea>
                     <ButtonArea>
                         <button type="submit">Salvar</button>
-                        <button>Cancelar</button>
+                        <Link to="/"><button>Cancelar</button></Link>
                     </ButtonArea>
                 </FormContainer>
             </Body>
